@@ -1,0 +1,13 @@
+:root {
+   --main-text-color: rgba(255, 255, 255, 0.7);
+   --heading-text-color: #fff;
+   --main-background-image: url('../assets/page-bg.jpg');
+   --main-background-color: #1b1b1b;
+   --border-color: rgba(255, 255, 255, 0.25);
+   --accent-color: #39965f;
+   --main-font-ibm: 'IBM Plex Mono', system-ui;
+   --heading-font-2p: 'Press Start 2P', monospace;
+   --main-font-size: 18px;
+
+   color-scheme: dark;
+}

@@ -6,7 +6,6 @@
    gap: 14px;
    grid-template-columns: 1fr repeat(2, auto);
    align-items: center;
-
 }
 
 .headerLogo {
@@ -24,8 +23,6 @@
    margin-top: 1px;
 }
 
-// .header__gh-link
-
 .headerGithubLink {
    height: 32px;
    width: 32px;
@@ -34,7 +31,7 @@
    align-items: center;
 }
 
-.menuBody {}
+// .menuBody {}
 
 .menuList {
    display: flex;
@@ -42,8 +39,8 @@
    gap: 24px;
 }
 
-.menuItem {}
+// .menuItem {}
 
-.menuLink {
-   &._active {}
-}
+// .menuLink {
+//    &._active {}
+// }

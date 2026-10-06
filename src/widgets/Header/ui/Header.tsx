@@ -1,7 +1,7 @@
 
 import styles from './Header.module.scss';
 
-import Logo from '../../../assets/icons/gh-link.svg?react'
+import Logo from '@/shared/assets/icons/github.svg?react'
 
 export function Header() {
    return (

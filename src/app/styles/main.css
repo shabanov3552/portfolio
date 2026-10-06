@@ -1,0 +1,37 @@
+#root {
+  min-height: 100svh;
+}
+
+body {
+  font: var(--main-font-size)/145% var(--main-font-ibm);
+  color: var(--main-text-color);
+
+  background-color: var(--main-background-color);
+  background-image: var(--main-background-image);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading-font-2p);
+  line-height: normal;
+  font-weight: 400;
+  color: var(--heading-text-color);
+}
+
+h1 {
+  font-size: 57px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 22px;
+}
