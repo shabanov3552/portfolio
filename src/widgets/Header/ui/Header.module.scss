@@ -1,0 +1,49 @@
+.header {
+   background: var(--main-background-color);
+   border-bottom: 1px solid var(--border-color);
+   padding: 8px 14px;
+   display: grid;
+   gap: 14px;
+   grid-template-columns: 1fr repeat(2, auto);
+   align-items: center;
+
+}
+
+.headerLogo {
+   font-size: 22px;
+   text-align: center;
+   color: #fff;
+   justify-self: start;
+
+   span {
+      color: var(--accent-color);
+   }
+}
+
+.headerMenu {
+   margin-top: 1px;
+}
+
+// .header__gh-link
+
+.headerGithubLink {
+   height: 32px;
+   width: 32px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.menuBody {}
+
+.menuList {
+   display: flex;
+   align-items: center;
+   gap: 24px;
+}
+
+.menuItem {}
+
+.menuLink {
+   &._active {}
+}
