@@ -6,41 +6,123 @@
    gap: 14px;
    grid-template-columns: 1fr repeat(2, auto);
    align-items: center;
-}
+   position: relative;
 
-.headerLogo {
-   font-size: 22px;
-   text-align: center;
-   color: #fff;
-   justify-self: start;
+   &__logo {
+      font-size: 22px;
+      text-align: center;
+      color: #fff;
+      justify-self: start;
 
-   span {
-      color: var(--accent-color);
+      span {
+         color: var(--accent-color);
+      }
+   }
+
+   &__menuButton {
+      background: none;
+      border: none;
+
+      @include minTablet {
+         display: none;
+      }
+   }
+
+   &__githubLink {
+      height: 32px;
+      width: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      transition: background-color 0.3s ease 0s;
+
+      @media (any-hover: hover) {
+         &:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+         }
+      }
+   }
+
+   &__mobile {
+      position: absolute;
+      left: 0;
+      bottom: 0;
    }
 }
 
-.headerMenu {
-   margin-top: 1px;
+// .BurgerIcon {}
+
+.menu {
+   @include maxTablet {
+      opacity: 0;
+      visibility: hidden;
+      position: fixed;
+      top: 51px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transition: all 0.3s ease 0.3s;
+
+      .menu_open & {
+         opacity: 1;
+         visibility: visible;
+         transition: all 0.3s ease 0s;
+      }
+   }
+
+   &__body {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+
+      @include maxTablet {
+         background: var(--main-background-color);
+         height: 100%;
+         display: grid;
+         justify-content: center;
+         text-align: center;
+         align-items: start;
+         align-content: start;
+         padding-top: rem(50);
+
+         transform: translateX(100%);
+         transition: transform 0.3s ease-in 0s;
+
+         .menu_open & {
+            transform: translateX(0);
+         }
+      }
+   }
+
+   &__link {
+      color: #fff;
+      position: relative;
+
+      &::after {
+         content: '';
+         position: absolute;
+         left: 0;
+         right: 0;
+         bottom: -12px;
+         height: 2px;
+      }
+
+      &._active {
+         background: var(--accent-color);
+      }
+
+      @media (any-hover: hover) {
+         &:hover {
+            &::after {
+               background: var(--hover-color);
+            }
+
+         }
+      }
+
+      @include maxTablet {
+         font-size: 24px;
+      }
+   }
 }
-
-.headerGithubLink {
-   height: 32px;
-   width: 32px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-// .menuBody {}
-
-.menuList {
-   display: flex;
-   align-items: center;
-   gap: 24px;
-}
-
-// .menuItem {}
-
-// .menuLink {
-//    &._active {}
-// }

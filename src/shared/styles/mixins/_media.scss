@@ -1,0 +1,184 @@
+$desktopXL: 2559.98px; // very large / 4K displays
+$desktop: 1919.98px; // large desktop displays
+$desktopS: 1599.98px; // desktop displays
+
+$laptopL: 1439.98px; // large laptops / small desktops
+$laptop: 1199.98px; // common laptop breakpoint
+$laptopS: 1023.98px; // compact laptops
+
+$tabletL: 991.98px; // tablets in landscape / small laptops
+$tablet: 767.98px; // tablets in portrait
+$tabletS: 639.98px; // small tablets / large phones in landscape
+
+$mobileL: 575.98px; // extra-wide phones
+$mobile: 424.98px; // standard / large phones
+$mobileS: 374.98px; // small phones
+$mobileXS: 319.98px; // up to ~320px
+
+@mixin maxDesktopXL {
+   @media (max-width: $desktopXL) {
+      @content;
+   }
+}
+
+@mixin maxDesktop {
+   @media (max-width: $desktop) {
+      @content;
+   }
+}
+
+@mixin maxDesktopS {
+   @media (max-width: $desktopS) {
+      @content;
+   }
+}
+
+@mixin maxLaptopL {
+   @media (max-width: $laptopL) {
+      @content;
+   }
+}
+
+@mixin maxLaptop {
+   @media (max-width: $laptop) {
+      @content;
+   }
+}
+
+@mixin maxLaptopS {
+   @media (max-width: $laptopS) {
+      @content;
+   }
+}
+
+@mixin maxTabletL {
+   @media (max-width: $tabletL) {
+      @content;
+   }
+}
+
+@mixin maxTablet {
+   @media (max-width: $tablet) {
+      @content;
+   }
+}
+
+@mixin maxTabletS {
+   @media (max-width: $tabletS) {
+      @content;
+   }
+}
+
+@mixin maxMobileL {
+   @media (max-width: $mobileL) {
+      @content;
+   }
+}
+
+@mixin maxMobile {
+   @media (max-width: $mobile) {
+      @content;
+   }
+}
+
+@mixin maxMobileS {
+   @media (max-width: $mobileS) {
+      @content;
+   }
+}
+
+@mixin maxMobileXS {
+   @media (max-width: $mobileXS) {
+      @content;
+   }
+}
+
+@mixin maxMedia($width) {
+   @media (max-width: #{$width + px}) {
+      @content;
+   }
+}
+
+@mixin minMedia($width) {
+   @media (min-width: #{$width + px}) {
+      @content;
+   }
+}
+
+@mixin minDesktopXL {
+   @media (min-width: $desktopXL) {
+      @content;
+   }
+}
+
+@mixin minDesktop {
+   @media (min-width: $desktop) {
+      @content;
+   }
+}
+
+@mixin minDesktopS {
+   @media (min-width: $desktopS) {
+      @content;
+   }
+}
+
+@mixin minLaptopL {
+   @media (min-width: $laptopL) {
+      @content;
+   }
+}
+
+@mixin minLaptop {
+   @media (min-width: $laptop) {
+      @content;
+   }
+}
+
+@mixin minLaptopS {
+   @media (min-width: $laptopS) {
+      @content;
+   }
+}
+
+@mixin minTabletL {
+   @media (min-width: $tabletL) {
+      @content;
+   }
+}
+
+@mixin minTablet {
+   @media (min-width: $tablet) {
+      @content;
+   }
+}
+
+@mixin minTabletS {
+   @media (min-width: $tabletS) {
+      @content;
+   }
+}
+
+@mixin minMobileL {
+   @media (min-width: $mobileL) {
+      @content;
+   }
+}
+
+@mixin minMobile {
+   @media (min-width: $mobile) {
+      @content;
+   }
+}
+
+@mixin minMobileS {
+   @media (min-width: $mobileS) {
+      @content;
+   }
+}
+
+@mixin minMobileXS {
+   @media (min-width: $mobileXS) {
+      @content;
+   }
+}
