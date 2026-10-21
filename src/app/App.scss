@@ -7,6 +7,8 @@
    height: 100svh;
    display: grid;
    grid-template-columns: 1fr;
+   grid-template-rows: 51px 1fr;
+   align-content: start;
 
    @include minTabletL {
       grid-template-columns: 288px 1fr;
@@ -20,6 +22,10 @@
    display: grid;
    overflow: auto;
    height: 100%;
+
+   @include minTabletL {
+      grid-area: content;
+   }
 }
 
 .main-content a:hover {

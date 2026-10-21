@@ -3,7 +3,7 @@
    background: var(--main-background-color);
    border-right: 1px solid var(--border-color);
    overflow: auto;
-
+   height: calc(100dvh - 51px);
    // .sidebar__section
 
    &__section {
