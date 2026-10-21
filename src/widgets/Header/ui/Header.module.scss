@@ -8,6 +8,10 @@
    align-items: center;
    position: relative;
 
+   @include minTabletL {
+      grid-area: header;
+   }
+
    &__logo {
       font-size: 22px;
       text-align: center;
@@ -23,7 +27,7 @@
       background: none;
       border: none;
 
-      @include minTablet {
+      @include minTabletL {
          display: none;
       }
    }
@@ -43,32 +47,11 @@
          }
       }
    }
-
-   &__mobile {
-      position: absolute;
-      left: 0;
-      bottom: 0;
-   }
 }
 
-// .BurgerIcon {}
-
 .menu {
-   @include maxTablet {
-      opacity: 0;
-      visibility: hidden;
-      position: fixed;
-      top: 51px;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      transition: all 0.3s ease 0.3s;
-
-      .menu_open & {
-         opacity: 1;
-         visibility: visible;
-         transition: all 0.3s ease 0s;
-      }
+   @include maxTabletL {
+      margin-bottom: 30px;
    }
 
    &__body {
@@ -76,22 +59,10 @@
       align-items: center;
       gap: 24px;
 
-      @include maxTablet {
-         background: var(--main-background-color);
+      @include maxTabletL {
          height: 100%;
          display: grid;
-         justify-content: center;
-         text-align: center;
-         align-items: start;
-         align-content: start;
-         padding-top: rem(50);
-
-         transform: translateX(100%);
-         transition: transform 0.3s ease-in 0s;
-
-         .menu_open & {
-            transform: translateX(0);
-         }
+         justify-content: start;
       }
    }
 
@@ -121,8 +92,47 @@
          }
       }
 
-      @include maxTablet {
+      @include maxTabletL {
          font-size: 24px;
       }
    }
+}
+
+.mobile-menu {
+   position: fixed;
+   left: 100%;
+   top: 51px;
+   bottom: 0;
+   z-index: var(--z-menu);
+
+   &__body {
+      background: var(--main-background-color);
+      transition: all 0.3s ease 0.3s;
+      transform: translateX(0);
+      width: 100svw;
+      height: 100%;
+      padding: 20px 14px;
+      display: grid;
+      gap: 50px 0;
+      align-content: space-between;
+      overflow: auto;
+
+      .menu_open & {
+         transform: translateX(-100%);
+         transition: all 0.3s ease 0s;
+      }
+   }
+
+   &__button {
+      background: none;
+      border: none;
+
+      @include minTabletL {
+         display: none;
+      }
+   }
+}
+
+.contacts-list_mobile-menu {
+   justify-content: start;
 }
