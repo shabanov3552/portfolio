@@ -9,6 +9,7 @@
    --main-font-ibm: 'IBM Plex Mono', system-ui;
    --heading-font-2p: 'Press Start 2P', monospace;
    --main-font-size: 18px;
-
+   --c-white: #fff;
+   --z-menu: 1500;
    color-scheme: dark;
 }

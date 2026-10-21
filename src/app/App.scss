@@ -1,0 +1,27 @@
+@import './styles/reset.css';
+@import './styles/variables.css';
+@import './styles/main.css';
+
+.main-wrapper {
+   overflow: hidden;
+   height: 100svh;
+   display: grid;
+   grid-template-columns: 1fr;
+
+   @include minTabletL {
+      grid-template-columns: 288px 1fr;
+      grid-template-areas:
+         'header header'
+         'sidebar content';
+   }
+}
+
+.main-content {
+   display: grid;
+   overflow: auto;
+   height: 100%;
+}
+
+.main-content a:hover {
+   text-decoration: underline;
+}
