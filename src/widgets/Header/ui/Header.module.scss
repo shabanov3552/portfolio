@@ -79,8 +79,10 @@
          height: 2px;
       }
 
-      &._active {
-         background: var(--accent-color);
+      &:global(.active) {
+         &::after {
+            background: var(--accent-color);
+         }
       }
 
       @media (any-hover: hover) {
@@ -88,7 +90,6 @@
             &::after {
                background: var(--hover-color);
             }
-
          }
       }
 
