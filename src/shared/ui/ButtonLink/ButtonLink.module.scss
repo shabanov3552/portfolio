@@ -1,0 +1,12 @@
+.button {
+   border-radius: 8px;
+   padding: 8px 44px;
+   background: var(--accent-color);
+   color: var(--c-white);
+
+   @media (any-hover: hover) {
+      &:hover {
+         background: var(--hover-color);
+      }
+   }
+}
