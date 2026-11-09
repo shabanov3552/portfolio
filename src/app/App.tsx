@@ -1,18 +1,27 @@
-import { Header } from '@widgets/Header';
-import { Sidebar } from '@/widgets/Sidebar';
+import { BrowserRouter, Routes, Route } from 'react-router';
 import './App.scss';
-import { useMediaQuery } from '@/shared/lib/hooks';
+import { MainLayout } from './layouts';
+import { HomePage } from '@/pages/home';
+import { ContactPage } from '@/pages/contact';
+import { ProjectsPage } from '@/pages/projects';
+import { AboutPage } from '@/pages/about';
+import { Page404 } from '@/pages/page404';
+
 
 function App() {
-  const isTablet = useMediaQuery('(max-width: 991.98px)');
+
   return (
-    <div className='main-wrapper'>
-      <Header></Header>
-      {!isTablet ? <Sidebar></Sidebar> : null}
-      <div className="main-content">
-        
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<MainLayout />} >
+          <Route index element={<HomePage />} />
+          <Route path="contact" element={<ContactPage />} />
+          <Route path="projects" element={<ProjectsPage />} />
+          <Route path="about" element={<AboutPage />} />
+        </Route>
+        <Route path='*' element={<Page404 />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
