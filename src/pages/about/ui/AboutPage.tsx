@@ -1,23 +1,39 @@
 import cls from './AboutPage.module.scss'
+import { skills } from '../model/skills'
 
 function AboutPage() {
    return (
       <section className={cls.about__section}>
-         <h2 className={cls.title}>Обо мне</h2>
+         <h1 className={cls.title}>Обо мне</h1>
          <ul className={cls.description}>
             <li className={cls.description__item}>
-               Я Александр, frontend-разработчик.
+               Я Александр, frontend-разработчик. Специализируюсь на разработке веб-интерфейсов с использованием React, Next.js и TypeScript.
             </li>
             <li className={cls.description__item}>
-               В веб-разработке с 2018 года. Начинал с вёрстки, затем работал в веб-студии и параллельно занимался проектами на фрилансе. За это время успел поработать над интернет-магазинами, корпоративными и информационными порталами.
+               С июня 2021 по август 2025 года работал frontend-разработчиком в веб-студии «Соль» в Красноярске, где создавал интернет-магазины, корпоративные порталы, многостраничные сайты и лендинги. Параллельно с работой в студии и после её завершения продолжаю заниматься фриланс-проектами и развивать собственные pet-проекты.
             </li>
             <li className={cls.description__item}>
-               Последний год активно работаю с React, TypeScript и Next.js. Мне нравится не только создавать интерфейсы, но и разбираться, как сделать их удобнее, быстрее и проще в поддержке.
+               Разработал структуру корпоративного портала на 40+ страниц и переиспользуемые компоненты. Реализовал drag-and-drop строк таблиц, редактирование параметров и согласование расчётов.
             </li>
             <li className={cls.description__item}>
-               Сейчас хочу работать в продуктовой команде, решать более сложные задачи и развиваться как frontend-инженер.
+               Создал адаптивные интерфейсы для многостраничных сайтов и интернет-магазинов, а также лендингов и промосайтов. Разработал B2B-портал на React и TypeScript и интерактивный калькулятор стоимости тура.
+            </li>
+            <li className={cls.description__item}>
+               Помогал стажёрам разбираться в проектах и участвовал в ревью кода.
             </li>
          </ul>
+
+         <div className={cls.skills}>
+            <h2 className={cls.title}>Скилы</h2>
+            <div className={cls.skills__grid}>
+               {skills.map((skill) => (
+                  <div className={cls.skill} key={skill.name}>
+                     <img className={cls.skill__icon} src={skill.icon} alt="" aria-hidden="true" />
+                     <div className={cls.skill__title}>{skill.name}</div>
+                  </div>
+               ))}
+            </div>
+         </div>
       </section>
    )
 }
