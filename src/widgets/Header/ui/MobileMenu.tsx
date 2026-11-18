@@ -20,7 +20,7 @@ function MobileMenu() {
 
          <div className={`${cls['mobile-menu']} ${menuIsOpen ? cls.menu_open : ''}`}>
             <div className={cls['mobile-menu__body']}>
-               <Menu />
+               <Menu onLinkClick={() => setMenuStatus(false)} />
                <ContactsList contactsList={[contacts.email, contacts.telegram, contacts.phone]} modifierClass={cls['contacts-list_mobile-menu']} />
             </div>
          </div>

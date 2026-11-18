@@ -4,7 +4,7 @@ import cls from './ButtonLink.module.scss';
 
 function ButtonLink(props: LinkProps) {
    return (
-      <Link {...props} className={cls.button} />
+      <Link {...props} className={[cls.button, props.className].join(' ')} />
    )
 }
 

@@ -6,8 +6,11 @@ body {
   font: var(--main-font-size)/145% var(--main-font-ibm);
   color: var(--main-text-color);
 
-  background-color: var(--main-background-color);
-  background-image: var(--main-background-image);
+  background:
+    radial-gradient(ellipse at 35% 35%,
+      rgba(0, 0, 0, 0.75),
+      transparent 70%),
+    var(--main-background-image);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,7 +28,7 @@ h3 {
 }
 
 h1 {
-  font-size: 57px;
+  font-size: 38px;
 }
 
 h2 {

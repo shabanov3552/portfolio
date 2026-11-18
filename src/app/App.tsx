@@ -11,7 +11,7 @@ import { Page404 } from '@/pages/page404';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route element={<MainLayout />} >
           <Route index element={<HomePage />} />

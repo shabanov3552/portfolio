@@ -1,5 +1,6 @@
 
 import { useMediaQuery } from '@/shared/lib/hooks';
+import { Link } from 'react-router';
 
 import { Menu } from './Menu';
 import { MobileMenu } from './MobileMenu';
@@ -13,7 +14,7 @@ function Header() {
 
    return (
       <header className={cls.header}>
-         <a href="/" className={cls.header__logo}>SHABAN<span>OV</span></a>
+         <Link to="/" className={cls.header__logo}>al.<span>dev</span></Link>
 
          {!isMobile ? <Menu /> : null}
 
