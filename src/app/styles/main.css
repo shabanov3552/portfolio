@@ -1,11 +1,6 @@
-#root {
-  min-height: 100svh;
-}
-
 body {
   font: var(--main-font-size)/145% var(--main-font-ibm);
   color: var(--main-text-color);
-
   background:
     radial-gradient(ellipse at 35% 35%,
       rgba(0, 0, 0, 0.75),
@@ -16,6 +11,10 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
 }
 
 h1,
