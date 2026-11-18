@@ -18,6 +18,12 @@
       color: #fff;
       justify-self: start;
 
+      @include maxTabletL {
+         display: flex;
+         align-items: center;
+         font-size: 18px;
+      }
+
       span {
          color: var(--accent-color);
       }
@@ -136,4 +142,15 @@
 
 .contacts-list_mobile-menu {
    justify-content: start;
+}
+
+.avatar {
+   width: 34px;
+   height: 34px;
+   margin-right: 5px;
+
+   img {
+      width: 100%;
+      height: 100%;
+   }
 }
