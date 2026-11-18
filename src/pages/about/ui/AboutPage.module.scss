@@ -1,21 +1,120 @@
 .about__section {
-   margin-bottom: 100px;
-
-   .description {
-      gap: 15px;
-      padding-left: 20px;
-      // .description__item
-
-      &__item {
-         list-style-type: square;
-      }
-   }
+   width: 100%;
+   padding: 50px 40px;
 
    @include maxTablet {
       margin-bottom: 50px;
    }
 
-   .title {
-      margin-bottom: 20px;
+   @include maxTablet {
+      padding: 30px 20px;
+   }
+}
+
+.title {
+   margin-bottom: 20px;
+   padding-bottom: 28px;
+   position: relative;
+
+   @include maxTablet {
+      font-size: 24px;
+      margin-bottom: 15px;
+      padding-bottom: 18px;
+   }
+
+   &::after {
+      content: '';
+      border-radius: 10px;
+      width: 112px;
+      height: 8px;
+      background: #39965f;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      @include maxTablet {
+         height: 4px;
+         width: 60px;
+      }
+   }
+}
+
+.description {
+   padding-left: 20px;
+   margin-bottom: 50px;
+
+   @include maxTablet {
+      margin-bottom: 30px;
+   }
+
+   // .description__item
+
+   &__item {
+      list-style-type: square;
+
+      @include maxTablet {
+         font-size: 14px;
+         line-height: 125%;
+      }
+
+      &:not(:last-child) {
+         margin-bottom: 10px;
+      }
+   }
+}
+
+.skills {
+
+
+   &__title {}
+
+   &__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 120px), 1fr));
+      gap: 12px;
+
+      @include maxTablet {
+         grid-template-columns: repeat(auto-fit, minmax(min(100%, 90px), 1fr));
+      }
+   }
+}
+
+.skill {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   gap: 10px;
+   min-width: 0;
+   border: 1px solid rgba(255, 255, 255, 0.25);
+   border-radius: 12px;
+   padding: 20px;
+   background: var(--main-background-color);
+
+   @include maxTablet {
+      padding: 10px 5px;
+   }
+
+   &__icon {
+      flex: 0 0 54px;
+      width: 54px;
+      height: 54px;
+      object-fit: contain;
+
+      @include maxTablet {
+         flex: 0 0 34px;
+         width: 34px;
+         height: 34px;
+      }
+   }
+
+   &__title {
+      text-align: center;
+      overflow-wrap: anywhere;
+      font-size: 12px;
+      line-height: 1.1;
+
+      @include maxTablet {
+         font-size: 10px;
+      }
    }
 }

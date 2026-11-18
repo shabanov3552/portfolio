@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#D07A35"
+   stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+   <title>Responsive layout</title>
+   <rect x="2.5" y="4" width="14" height="11" rx="1.5" />
+   <path d="M7 19h5M9.5 15v4" />
+   <rect x="17.5" y="8" width="4" height="11" rx="1" />
+   <path d="M19 16.5h1" />
+</svg>
