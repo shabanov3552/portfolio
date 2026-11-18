@@ -4,7 +4,7 @@ import { contacts } from '@/shared/config/contacts';
 
 import cls from './Sidebar.module.scss';
 
-import avatar from '@/shared/assets/avatar.jpg';
+import avatar from '@/shared/assets/pixel-avatar.png';
 
 export function Sidebar() {
 
