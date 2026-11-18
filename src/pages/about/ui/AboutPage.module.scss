@@ -1,0 +1,21 @@
+.about__section {
+   margin-bottom: 100px;
+
+   .description {
+      gap: 15px;
+      padding-left: 20px;
+      // .description__item
+
+      &__item {
+         list-style-type: square;
+      }
+   }
+
+   @include maxTablet {
+      margin-bottom: 50px;
+   }
+
+   .title {
+      margin-bottom: 20px;
+   }
+}

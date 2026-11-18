@@ -1,0 +1,111 @@
+.wrapper {
+   width: 100%;
+   max-width: 1400px;
+   min-width: 0;
+   margin: 0 auto;
+   padding: 20px 40px;
+   display: grid;
+   align-items: center;
+
+   @include maxTablet {
+      padding: 20px;
+   }
+}
+
+.hero__section {
+   display: grid;
+   align-content: center;
+   gap: 20px;
+   transform: translateY(-5vh);
+
+   @include maxTablet {
+      gap: 14px;
+   }
+
+   @include maxTabletS {
+      align-content: start;
+   }
+}
+
+.title {
+   line-height: 140%;
+
+   p {
+      font-size: .7em;
+   }
+
+   @include minDesktop {
+      font-size: 58px;
+   }
+
+
+   @include maxTablet {
+      font-size: 28px;
+   }
+
+   @include maxMobile {
+      font-size: 20px;
+   }
+}
+
+.description {
+   display: grid;
+   line-height: 130%;
+
+   @include minDesktop {
+      font-size: 28px;
+   }
+
+   @include maxDesktop {
+      font-size: 22px;
+   }
+
+   @include maxTablet {
+      font-size: 16px;
+   }
+
+   // .description__item
+
+   &__item {}
+}
+
+.buttons {
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+   justify-content: start;
+}
+
+// .buttonLink {
+//    border: none;
+//    border-radius: 8px;
+//    padding: 8px 44px;
+//    background: var(--accent-color);
+//    color: var(--c-white);
+//    font: inherit;
+//    cursor: pointer;
+
+//    @media (any-hover: hover) {
+//       &:hover {
+//          background: var(--hover-color);
+//       }
+//    }
+
+//    @include maxTablet {
+//       padding: 6px 24px;
+//    }
+// }
+
+.button {
+   border-radius: 8px;
+   background: none;
+   border: 1px solid var(--accent-color);
+   padding: 8px 44px;
+   color: var(--c-white);
+
+   @media (any-hover: hover) {
+      &:hover {
+         background: var(--accent-color);
+      }
+   }
+}
