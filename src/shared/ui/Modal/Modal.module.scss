@@ -1,0 +1,119 @@
+.modal {
+   width: min(560px, calc(100% - 32px));
+   max-width: none;
+   max-height: calc(100dvh - 32px);
+   margin: auto;
+   padding: 24px;
+   overflow: auto;
+   box-sizing: border-box;
+   color: var(--main-text-color);
+   background: var(--main-background-color);
+   border: 1px solid var(--border-color);
+   border-radius: 12px;
+   transform-origin: center;
+
+   &[open] {
+      animation: modal-in 240ms ease-out both;
+
+      &::backdrop {
+         animation: backdrop-in 240ms ease-out both;
+      }
+   }
+
+   &[data-closing='true'] {
+      animation: modal-out 200ms ease-in both;
+
+      &::backdrop {
+         animation: backdrop-out 200ms ease-in both;
+      }
+   }
+
+   &::backdrop {
+      background: rgba(0, 0, 0, 0.7);
+   }
+
+   &__header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 24px;
+   }
+
+   &__title {
+      margin: 0;
+      color: var(--heading-text-color);
+      font-size: 24px;
+      overflow-wrap: anywhere;
+   }
+
+   &__close {
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      color: var(--heading-text-color);
+      background: transparent;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      font-size: 28px;
+      cursor: pointer;
+
+      &:focus-visible {
+         outline: 2px solid var(--accent-color);
+         outline-offset: 3px;
+      }
+   }
+
+   &__content {
+      overflow-wrap: anywhere;
+   }
+}
+
+@keyframes modal-in {
+   from {
+      transform: scale(0);
+   }
+
+   to {
+      transform: scale(1);
+   }
+}
+
+@keyframes modal-out {
+   from {
+      transform: scale(1);
+   }
+
+   to {
+      transform: scale(0);
+   }
+}
+
+@keyframes backdrop-in {
+   from { opacity: 0; }
+   to { opacity: 1; }
+}
+
+@keyframes backdrop-out {
+   from { opacity: 1; }
+   to { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+   .modal[open],
+   .modal[data-closing='true'] {
+      animation-duration: 1ms;
+
+      &::backdrop {
+         animation-duration: 1ms;
+      }
+   }
+}
+
+:global(html):has(.modal[open]),
+:global(body):has(.modal[open]) {
+   overflow: hidden;
+}

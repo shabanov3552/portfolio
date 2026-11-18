@@ -9,4 +9,8 @@
          background: var(--hover-color);
       }
    }
+
+   @include maxTablet {
+      padding: 6px 24px;
+   }
 }

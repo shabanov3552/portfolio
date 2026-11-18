@@ -1,0 +1,41 @@
+.status {
+
+   // .{cls.status__bar}
+
+   &__bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+   }
+
+   // .{cls.status__indicator}
+
+   &__indicator {
+      width: 8px;
+      height: 8px;
+      display: inline-block;
+      border-radius: 50%;
+      background: var(--accent-color);
+      animation: blinking 1.5s infinite linear;
+   }
+
+   // .{cls.status__text}
+
+   &__text {
+      color: var(--c-white)
+   }
+}
+
+@keyframes blinking {
+   0% {
+      opacity: 0.6;
+   }
+
+   50% {
+      opacity: 1;
+   }
+
+   100% {
+      opacity: 0.6;
+   }
+}
