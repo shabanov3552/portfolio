@@ -1,5 +1,129 @@
-.projects__section {
-   min-width: 0;
+.projects {
+   padding: 32px 20px;
+}
 
-   .slider {}
+.title {
+   margin-bottom: 20px;
+   padding-bottom: 28px;
+   position: relative;
+
+   @include maxTablet {
+      font-size: 24px;
+      margin-bottom: 15px;
+      padding-bottom: 18px;
+   }
+
+   &::after {
+      content: '';
+      border-radius: 10px;
+      width: 112px;
+      height: 8px;
+      background: #39965f;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      @include maxTablet {
+         height: 4px;
+         width: 60px;
+      }
+   }
+}
+
+.projectsContent {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(min(100%, 444px), 1fr));
+   gap: 40px 20px;
+}
+
+.projectItem {
+   position: relative;
+
+   @media (any-hover: hover) {
+      &:hover {
+         .projectImage img {
+            transform: scale(1.02);
+         }
+      }
+   }
+}
+
+.projectImage {
+   margin-bottom: 12px;
+   overflow: hidden;
+   border-radius: 12px;
+   // height: 240px;
+
+   img {
+      transition: all 0.3s ease 0s;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+   }
+}
+
+.projectTitle {
+   font-size: 22px;
+   color: var(--c-white);
+   margin-bottom: 12px;
+   line-height: 120%;
+   overflow-wrap: anywhere;
+
+   @include maxTablet {
+      font-size: 20px;
+   }
+}
+
+.projectDescr {
+   margin-bottom: 12px;
+   line-height: 120%;
+
+   @include maxTablet {
+      font-size: 16px;
+   }
+}
+
+.projectLink {
+   color: var(--c-white);
+   font-size: 20px;
+   display: inline-block;
+   margin-bottom: 12px;
+
+   &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+   }
+
+   @include maxTablet {
+      font-size: 18px;
+   }
+
+   @media (any-hover: hover) {
+      &:hover {
+         text-decoration: underline;
+         text-underline-offset: 4px;
+         text-decoration-thickness: 1px;
+      }
+   }
+}
+
+.tags {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 4px 12px;
+   position: relative;
+   z-index: 2;
+}
+
+.tag {
+   line-height: 1;
+   font-weight: 500;
+   font-size: 16px;
+   color: var(--accent-color);
+
+   @include maxTablet {
+      font-size: 14px;
+   }
 }

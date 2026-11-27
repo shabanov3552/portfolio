@@ -1,52 +1,62 @@
-import { Swiper, SwiperSlide, useSwiper, useSwiperSlide } from 'swiper/react';
-import { Navigation, } from 'swiper/modules';
+import { useEffect, useState } from 'react';
+import { getProjects, type Project } from '../api/getProjects';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
 import cls from './ProjectsPage.module.scss';
 
+type ProjectsState = { status: "loading"; } | { status: "error"; } | { status: "success"; projects: Project[]; }
+const errorText = 'На нас напали, мы сейчас отобьемся и все поправим :)';
+
 function ProjectsPage() {
+   const [state, setState] = useState<ProjectsState>({ status: 'loading' });
+
+   useEffect(() => {
+      getProjects()
+         .then((projects) => {
+            setState({ status: 'success', projects });
+         })
+         .catch((error) => {
+            setState({ status: 'error' });
+            console.error(error);
+         });
+   }, []);
+
+   const loading = state.status === 'loading' ? 'Загрузка...' : null
+   const error = state.status === 'error' ? errorText : null
+   const projects = state.status === 'success' && state.projects.length > 0 ?
+      state.projects.map((project) => (<ProjectItem key={project.id} data={project}></ProjectItem>)) :
+      'Проектов пока нет';
+
    return (
-      <section className={cls.projects__section}>
-         <h2 className={cls.title}>Проекты</h2>
-         <div className={cls.projects__slider}>
-            <Swiper
-               loop={true}
-               slidesPerView={3}
-               centeredSlides={true}
-               navigation={true}
-               modules={[Navigation]}
-               className={cls.slider}
-            >
-               <NextSlideButton />
-               <SwiperSlide>Slide 1<ProjectSlide title="Слайд" /></SwiperSlide>
-               <SwiperSlide>Slide 2<ProjectSlide title="Слайд" /></SwiperSlide>
-               <SwiperSlide>Slide 3<ProjectSlide title="Слайд" /></SwiperSlide>
-               <SwiperSlide>Slide 4<ProjectSlide title="Слайд" /></SwiperSlide>
-               <SwiperSlide>Slide 5<ProjectSlide title="Слайд" /></SwiperSlide>
-               <SwiperSlide>Slide 6<ProjectSlide title="Слайд" /></SwiperSlide>
-               <SwiperSlide>Slide 7<ProjectSlide title="Слайд" /></SwiperSlide>
-               <SwiperSlide>Slide 8<ProjectSlide title="Слайд" /></SwiperSlide>
-               <SwiperSlide>Slide 9<ProjectSlide title="Слайд" /></SwiperSlide>
-            </Swiper>
+      <section className={cls.projects}>
+         <h1 className={cls.title}>Проекты</h1>
+         <div className={cls.filters}>
+            <div className={cls.filterButton}></div>
+            <div className={cls.sortButton}></div>
+         </div>
+         <div className={cls.projectsContent}>
+            {loading ?? error ?? projects}
          </div>
       </section>
    )
 }
 
-function NextSlideButton() {
-   const swiper = useSwiper();
-
+function ProjectItem({ data }: { data: Project }) {
+   const { title, description, prevImageUrl, tags } = data
    return (
-      <button type="button" onClick={() => swiper.slideNext()}>
-         Следующий проект
-      </button>
-   );
-}
-
-function ProjectSlide({ title }: { title: string }) {
-   const { isActive } = useSwiperSlide();
-
-   return <div>{title}{isActive ? ' — выбран' : ' — не выбран'}</div>;
+      <div className={cls.projectItem}>
+         <div className={cls.projectImage}>
+            <img
+               src={`${import.meta.env.BASE_URL}${prevImageUrl}`}
+               alt={`Скриншот проекта «${title}»`}
+            />
+         </div>
+         <h3 className={cls.projectTitle}>{title}</h3>
+         <div className={cls.projectDescr}>{description}</div>
+         <a href="" className={cls.projectLink}>Подробнее</a>
+         <div className={cls.tags}>
+            {tags.map((tag) => (<div key={tag} className={cls.tag}>{tag}</div>))}
+         </div>
+      </div>
+   )
 }
 export { ProjectsPage };

@@ -1,0 +1,685 @@
+{
+  "projects": [
+    {
+      "id": "portal-proizvoditelya-sizov-gward",
+      "title": "Портал производителя СИЗов Gward",
+      "description": "Внутренний портал производителя рабочих перчаток с каталогом продукции, корпоративными справочниками и аналитикой продаж.",
+      "tags": [
+        "Внутренний портал"
+      ],
+      "prevImageUrl": "mock/images/websalt/portal-proizvoditelya-sizov-gward.png",
+      "detail": {
+        "sourceUrl": "https://websalt.ru/works/portal-proizvoditelya-sizov-gward/",
+        "linkHref": null,
+        "subtitle": "Gward. Внутри большой компании.",
+        "description": "Внутренний портал для компании Gward: цифровая экосистема крупнейшего производителя.\n\nНашей студией разработан внутренний портал для компании Gward — лидера рынка рабочих перчаток. Это закрытая цифровая среда, доступная исключительно сотрудникам компании и объединяющая ключевые бизнес-процессы: от управления продукцией до аналитики продаж.\n\nПродуктовый каталог нового поколения.\nВ основе портала — многоуровневый каталог продукции с беспрецедентной детализацией. Каждая позиция сопровождена развернутым описанием: технические характеристики, назначение, маркировка, штрихкоды, аналоги сторонних производителей, а также мультиязычные формулировки. По сути, это полноценная база знаний о продукте, позволяющая даже новым сотрудникам быстро погрузиться в ассортиментную матрицу и свободно ориентироваться в ней.\n\nСправочная инфраструктура.\nПортал аккумулирует корпоративные справочники: фабрики, складские комплексы, номенклатурные группы, логистические единицы. Вся информация связана в единое навигационное поле и доступна в любой точке системы.\n\nДокументация со связями.\nВ портал интегрирован архив нормативной, конструкторской и разрешительной документации. Ключевая особенность — прямая привязка документов к конкретным продуктам, что исключает потерю данных и ускоряет согласования.\n\nТорговый модуль: прозрачность каждой партии.\nОтдельный раздел посвящен управлению торговлей. Здесь для каждой товарной партии формируется детальная калькуляция затрат, ведется история статусов и доступен пакет печатных форм. Встроенный торговый терминал в реальном времени анализирует валютные курсы и рассчитывает оптимальную, а также минимально допустимую цену реализации. Инструмент стал незаменимым помощником для менеджеров по продажам, позволяя принимать решения мгновенно и с опорой на актуальные данные.\n\nГибкая ролевая модель.\nДоступ к функционалу разграничен согласно ролевой модели. Каждому сотруднику предоставлен ровно тот набор инструментов, который необходим для выполнения его задач — без лишнего шума и с максимальным удобством.",
+        "region": "Россия",
+        "launchYear": 2025,
+        "images": [
+          {
+            "src": "mock/images/websalt/portal-proizvoditelya-sizov-gward/gallery-1.png"
+          },
+          {
+            "src": "mock/images/websalt/portal-proizvoditelya-sizov-gward/gallery-2.png"
+          },
+          {
+            "src": "mock/images/websalt/portal-proizvoditelya-sizov-gward/gallery-3.png"
+          },
+          {
+            "src": "mock/images/websalt/portal-proizvoditelya-sizov-gward/gallery-4.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "optovyy-b2b-portal-td-elektrum",
+      "title": "Оптовый B2B портал ТД Электрум",
+      "description": "Портал оптовых закупок электрооборудования с заказом по артикулам или из Excel и быстрым повтором прошлых заказов.",
+      "tags": [
+        "B2B-портал"
+      ],
+      "prevImageUrl": "mock/images/websalt/optovyy-b2b-portal-td-elektrum.png",
+      "detail": {
+        "sourceUrl": "https://websalt.ru/works/optovyy-b2b-portal-td-elektrum/",
+        "linkHref": "https://b2b-tdel.pro",
+        "subtitle": "Закупайся со скоростью света.",
+        "description": "Портал разработан для автоматизации оптовых продаж и обеспечения эффективного взаимодействия с контрагентами. Решение предназначено для компаний, работающих в сфере электротехники: монтажных и проектных организаций, интеграторов, а также торговых домов и розничных сетей, занимающихся перепродажей электротехнической, светотехнической и кабельной продукции.\n\nКлючевые возможности портала:\n\n1. Управление заказами\n\n• Оптовый заказ: Быстрое оформление заказа с помощью загрузки Excel-файла или добавления товаров по артикулам.\n\n• Повтор заказов: Мгновенное копирование прошлых заказов из истории в корзину в один клик.\n\n• Умная корзина: Работа с корзиной в модальном окне без перезагрузки страницы. Товары автоматически группируются по статусу (в наличии, под заказ, недоступные). Корзину можно распечатать, выгрузить в Excel или пополнить новой загрузкой файла.\n\n• Фильтрация истории: Удобный поиск нужного заказа по статусу, типу (онлайн/оффлайн), сумме или дате.\n\n2. Работа с каталогом\n\n• Персональные цены: Автоматическое отображение индивидуальных цен, скидок и бонусов для каждого клиента или группы компаний.\n\n• Умный поиск и фильтры: Глобальный поиск по артикулу или названию, а также детальная фильтрация товаров по характеристикам в пределах раздела.\n\n• Удобные единицы измерения: Возможность переключения единиц измерения товара с пересчетом отображаемой цены.\n\n• Высокая скорость загрузки: Встроенная конвертация изображений в формат WebP для быстрой загрузки страниц без потери качества.\n\n3. Электронный документооборот\n\n• Резервирование товаров: Автоматическое помещение товара в резерв при оформлении заказа с синхронизацией данных с учетной системой (1С).\n\n• Работа со счетами: Просмотр и скачивание счетов (PDF), автоматически сформированных на портале или загруженных из 1С.\n\n• Закрывающие документы: Автоматическая загрузка отгрузочных документов (накладные, счета-фактуры) из 1С в личный кабинет клиента.\n\n• Акты сверки: Удобное формирование заявки на подготовку акта сверки прямо из личного кабинета.\n\n• Единая история заказов: Отображение как заказов, сделанных на портале, так и оффлайн-заказов, выгруженных из 1С.\n\n• Выгрузка прайс-листов: Скачивание актуального прайс-листа в Excel с учетом выбранного раздела каталога и примененных фильтров.\n\n• Обработка рекламаций: Интеграция с 1С позволяет отправлять претензии напрямую в учетную систему для быстрой обработки.\n\n4. Личный кабинет и управление доступом\n\n• Безопасный вход: Регистрация и авторизация юрлиц и ИП с возможностью предварительной модерации новых контрагентов.\n\n• Гибкое управление пользователями: Возможность создания нескольких сотрудников с индивидуальными логинами и паролями для одной организации или закрепления одного сотрудника за разными юрлицами холдинга.\n\n• Личный менеджер: Автоматическое закрепление за клиентом персонального менеджера с удобной связью прямо из интерфейса портала.\n\n• Избранное: Персональный список товаров для быстрого доступа и повторных заказов.\n\n• Управление данными: Самостоятельное изменение персональной информации или отправка запроса на изменение закрепленному менеджеру.\n\n• Обратная связь: Встроенная форма для отправки отзывов, предложений и претензий.",
+        "region": "Россия",
+        "launchYear": 2024,
+        "services": [
+          {
+            "name": "Поддержка и сопровождение интернет-магазинов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/podderzhka-i-soprovozhdenie-internet-magazinov-na-1s-bitriks/"
+          }
+        ],
+        "integrations": [
+          {
+            "name": "1С",
+            "src": "mock/images/websalt/optovyy-b2b-portal-td-elektrum/integration-1.png"
+          }
+        ],
+        "images": [
+          {
+            "src": "mock/images/websalt/optovyy-b2b-portal-td-elektrum/gallery-1.png"
+          },
+          {
+            "src": "mock/images/websalt/optovyy-b2b-portal-td-elektrum/gallery-2.png"
+          },
+          {
+            "src": "mock/images/websalt/optovyy-b2b-portal-td-elektrum/gallery-3.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "magazin-po-prodazhe-kabelya-i-elektrooborudovaniya-td-elektrum",
+      "title": "Магазин по продаже кабеля и электрооборудования ТД Электрум",
+      "description": "Магазин электротехнической продукции, кабеля и освещения с двусторонним обменом данными с 1С.",
+      "tags": [
+        "Интернет-магазин"
+      ],
+      "prevImageUrl": "mock/images/websalt/magazin-po-prodazhe-kabelya-i-elektrooborudovaniya-td-elektrum.png",
+      "detail": {
+        "sourceUrl": "https://websalt.ru/works/magazin-po-prodazhe-kabelya-i-elektrooborudovaniya-td-elektrum/",
+        "linkHref": "https://tdel.pro",
+        "subtitle": "От кабеля до розетки – все для надежной электросети.",
+        "description": "Компания «Электрум» работает на рынке электрооборудования с 1998 года. Все сотрудники предприятия обладают высокой квалификацией в области электротехнической продукции, что позволяет качественно укомплектовывать заказы, а также предлагать замену устаревшего оборудования на современные аналоги, соответствующие актуальным требованиям и нормам. Офис и склад расположены на одной территории — это даёт возможность клиентам оперативно приобрести весь необходимый товар.\n\nКомпания поставляет электротехническую, светотехническую и кабельно-проводниковую продукцию как для промышленных и бюджетных организаций, так и для частных лиц.\n\nРазработанный фирменный стиль успешно интегрирован не только в элементы компании (баннеры, вывески, офисную продукцию и др.), но и в интернет-магазин. В магазине представлен широкий ассортимент товаров, его обновление осуществляется через двусторонний обмен с 1С. Для пользователей, предпочитающих самостоятельно забирать заказы, предусмотрена функция печати корзины, а также возможность добавления товаров в список покупок с последующей отправкой на электронную почту или распечаткой. На протяжении нескольких лет мы осуществляем поддержку магазина, занимаемся его SEO-продвижением, постоянно совершенствуем действующие и разрабатываем новые функции. Благодаря комплексной работе количество клиентов компании значительно выросло.",
+        "region": "Россия",
+        "launchYear": 2022,
+        "services": [
+          {
+            "name": "Разработка интернет-магазинов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/razrabotka-internet-magazinov-na-1s-bitriks/"
+          },
+          {
+            "name": "Поддержка и сопровождение интернет-магазинов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/podderzhka-i-soprovozhdenie-internet-magazinov-na-1s-bitriks/"
+          },
+          {
+            "name": "SЕО продвижение сайтов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/seo-prodvidgenie/"
+          }
+        ],
+        "integrations": [
+          {
+            "name": "1С",
+            "src": "mock/images/websalt/magazin-po-prodazhe-kabelya-i-elektrooborudovaniya-td-elektrum/integration-1.png"
+          },
+          {
+            "name": "Маркетплейсы РФ",
+            "src": "mock/images/websalt/magazin-po-prodazhe-kabelya-i-elektrooborudovaniya-td-elektrum/integration-2.png"
+          }
+        ],
+        "images": [
+          {
+            "src": "mock/images/websalt/magazin-po-prodazhe-kabelya-i-elektrooborudovaniya-td-elektrum/gallery-1.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-po-prodazhe-kabelya-i-elektrooborudovaniya-td-elektrum/gallery-2.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-po-prodazhe-kabelya-i-elektrooborudovaniya-td-elektrum/gallery-3.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-po-prodazhe-kabelya-i-elektrooborudovaniya-td-elektrum/gallery-4.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-po-prodazhe-kabelya-i-elektrooborudovaniya-td-elektrum/gallery-5.png"
+          }
+        ],
+        "videos": [
+          {
+            "src": "https://websalt.ru/upload/iblock/d4d/bg573bvhlgi2y8xn4poyydebzgrbwctp.mp4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "magazin-proizvoditelya-sportivnoy-odezhdy-rosomakha",
+      "title": "Магазин производителя спортивной одежды Росомаха",
+      "description": "Сайт бренда спортивной одежды с каталогом, выбором размеров и разделами об истории и производстве.",
+      "tags": [
+        "Интернет-магазин"
+      ],
+      "prevImageUrl": "mock/images/websalt/magazin-proizvoditelya-sportivnoy-odezhdy-rosomakha.png",
+      "detail": {
+        "sourceUrl": "https://websalt.ru/works/magazin-proizvoditelya-sportivnoy-odezhdy-rosomakha/",
+        "linkHref": "https://rosomaha.su",
+        "subtitle": "Одежда, созданная для движения и защиты.",
+        "description": "В рамках проекта по продвижению личного бренда одежды «Росомаха» от компании «Покров» был разработан интернет магазин. Главной целью стало всестороннее представление бренда: от его истории и производственных процессов до знакомства с послами бренда (амбассадорами) и, конечно же, демонстрации актуального каталога продукции. Важным этапом стало внедрение новой структуры каталога в системе 1С, также у заказчика отсутствовали торговые предложения по размерам товаров в 1С.\n\nДля корректного отображения продукции были созданы уникальные SKU (товарные позиции) непосредственно на сайте с использованием динамических скриптов. Этот подход позволил динамически формировать и выводить на сайт все доступные варианты товаров с учетом их размеров, обеспечивая покупателям полную и удобную информацию.",
+        "region": "Россия",
+        "launchYear": 2025,
+        "type": "Сайт",
+        "features": "SCU созданные на сайте с использованием скрипта, запуск в короткие сроки",
+        "services": [
+          {
+            "name": "Разработка интернет-магазинов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/razrabotka-internet-magazinov-na-1s-bitriks/"
+          }
+        ],
+        "integrations": [
+          {
+            "name": "1С",
+            "src": "mock/images/websalt/magazin-proizvoditelya-sportivnoy-odezhdy-rosomakha/integration-1.png"
+          }
+        ],
+        "images": [
+          {
+            "src": "mock/images/websalt/magazin-proizvoditelya-sportivnoy-odezhdy-rosomakha/gallery-1.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-proizvoditelya-sportivnoy-odezhdy-rosomakha/gallery-2.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-proizvoditelya-sportivnoy-odezhdy-rosomakha/gallery-3.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-proizvoditelya-sportivnoy-odezhdy-rosomakha/gallery-4.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sayt-dostavki-gruzov-iz-kitaya-v-rossiyu-meifort",
+      "title": "Сайт доставки грузов из Китая в Россию Meifort",
+      "description": "Сайт логистической компании с отдельными разделами о перевозках из Китая, таможенном оформлении и страховании грузов.",
+      "tags": [
+        "Сайт"
+      ],
+      "prevImageUrl": "mock/images/websalt/sayt-dostavki-gruzov-iz-kitaya-v-rossiyu-meifort.png",
+      "detail": {
+        "sourceUrl": "https://websalt.ru/works/sayt-dostavki-gruzov-iz-kitaya-v-rossiyu-meifort/",
+        "linkHref": "https://meifort.ru",
+        "subtitle": "Ваш мост между Китаем и Россией. Быстро, надежно, выгодно.",
+        "description": "Компания Meifort специализируется на предоставлении услуг по доставке грузов из Китая в Россию.\nВыстроенные процессы работы обеспечивают максимальную эффективность и безопасность грузоперевозок между двумя крупнейшими экономиками мира. Компания предлагает полный комплекс услуг, включая таможенное оформление, страхование грузов, а также консультации по вопросам логистики и импорта/экспорта.\n\nИзначально у компании был одностраничный сайт, однако для роста бизнеса потребовалось привлечение большего числа целевых клиентов. Для этого было необходимо создать современный, информативный и SEO-оптимизированный веб-ресурс.\n\nНами был разработан полноценный корпоративный сайт с детальными разделами по каждому направлению услуг. Ключевые элементы реализации:\n\n• Уникальный дизайн и визуал: Для каждого сервиса созданы тематические изображения. Общее оформление отражает азиатскую специфику и символизирует прочные логистические связи между Россией и Китаем, что подчёркнуто, например, стилизованным изображением моста через Амур.\n\n• Полезный функционал: На сайте интегрирован актуальный курс валют и реализованы удобные формы связи, включая прямые ссылки на социальные сети компании.\n\n• SEO-ядро: Структура и контент сайта оптимизированы для привлечения целевого трафика из поисковых систем.\n\nЗапуск нового сайта сразу принёс ощутимый бизнес-результат: количество поступающих заявок увеличилось, при этом значительно возросло их качество и релевантность, что напрямую повлияло на рост конверсии и эффективность воронки продаж.",
+        "region": "Россия",
+        "launchYear": 2024,
+        "images": [
+          {
+            "src": "mock/images/websalt/sayt-dostavki-gruzov-iz-kitaya-v-rossiyu-meifort/gallery-1.jpg"
+          },
+          {
+            "src": "mock/images/websalt/sayt-dostavki-gruzov-iz-kitaya-v-rossiyu-meifort/gallery-2.jpg"
+          },
+          {
+            "src": "mock/images/websalt/sayt-dostavki-gruzov-iz-kitaya-v-rossiyu-meifort/gallery-3.jpg"
+          },
+          {
+            "src": "mock/images/websalt/sayt-dostavki-gruzov-iz-kitaya-v-rossiyu-meifort/gallery-4.jpg"
+          },
+          {
+            "src": "mock/images/websalt/sayt-dostavki-gruzov-iz-kitaya-v-rossiyu-meifort/gallery-5.png"
+          }
+        ],
+        "videos": [
+          {
+            "src": "https://websalt.ru/upload/iblock/17b/9l9tlyy3smt9977wgx2de85cprz4tlx6.mp4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "magazin-obuvi-lyubimaya-obuv",
+      "title": "Магазин обуви Любимая обувь",
+      "description": "Магазин обуви с проверкой наличия по торговым точкам, резервированием, расчётом доставки и онлайн-оплатой.",
+      "tags": [
+        "Интернет-магазин"
+      ],
+      "prevImageUrl": "mock/images/websalt/magazin-obuvi-lyubimaya-obuv.png",
+      "detail": {
+        "sourceUrl": "https://websalt.ru/works/magazin-obuvi-lyubimaya-obuv/",
+        "linkHref": "https://loveshoes24.ru",
+        "subtitle": "Ваш идеальный образ начинается с обуви.",
+        "description": "Сеть магазинов «Любимая обувь» в Красноярске имеет 20-летнюю историю. Компания начала свою деятельность в 1996 году как оптовая организация. Первый розничный магазин был открыт в Красноярске в 2003 году. Сегодня сеть состоит из пяти магазинов, расположенных в различных торговых комплексах города: ТК на Свободном, ТЦ Взлётка Plaza, ЦУМ, ТРЦ Июнь и ТП МЕГА.\n\nВ разработанном интернет-магазине представлен обширный ассортимент обувной сети. Подключена многоскладовость, благодаря которой можно зарезервировать и посмотреть наличие определённого товара в выбранном магазине. Для удобства оформления заказа подключена авторизация по SMS, расчёт доставки в службах «Почта России» и СДЭК, а также оплата банковской картой на сайте. Двусторонняя интеграция с 1С позволяет поддерживать актуальность наличия и остатков номенклатуры на сайте.",
+        "region": "Россия",
+        "launchYear": 2024,
+        "services": [
+          {
+            "name": "Разработка интернет-магазинов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/razrabotka-internet-magazinov-na-1s-bitriks/"
+          },
+          {
+            "name": "Поддержка и сопровождение интернет-магазинов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/podderzhka-i-soprovozhdenie-internet-magazinov-na-1s-bitriks/"
+          }
+        ],
+        "integrations": [
+          {
+            "name": "1С",
+            "src": "mock/images/websalt/magazin-obuvi-lyubimaya-obuv/integration-1.png"
+          },
+          {
+            "name": "Почта России, СДЭК",
+            "src": "mock/images/websalt/magazin-obuvi-lyubimaya-obuv/integration-2.png"
+          },
+          {
+            "name": "Юкасса",
+            "src": "mock/images/websalt/magazin-obuvi-lyubimaya-obuv/integration-3.png"
+          }
+        ],
+        "images": [
+          {
+            "src": "mock/images/websalt/magazin-obuvi-lyubimaya-obuv/gallery-1.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-obuvi-lyubimaya-obuv/gallery-2.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-obuvi-lyubimaya-obuv/gallery-3.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-obuvi-lyubimaya-obuv/gallery-4.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-obuvi-lyubimaya-obuv/gallery-5.png"
+          }
+        ],
+        "videos": [
+          {
+            "src": "https://websalt.ru/upload/iblock/5f9/f42w6n0ksv4iat9enmwm7lkvk6ywrruy.mp4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sayt-dlya-instituta-krasnoyarskgrazhdanproekt",
+      "title": "Сайт для института градостроительства",
+      "description": "Сайт института с картами реализованных проектов и карточками объектов, где собраны чертежи, фотографии и 3D-модели.",
+      "tags": [
+        "Сайт"
+      ],
+      "prevImageUrl": "mock/images/websalt/sayt-dlya-instituta-krasnoyarskgrazhdanproekt.png",
+      "detail": {
+        "sourceUrl": "https://websalt.ru/works/sayt-dlya-instituta-krasnoyarskgrazhdanproekt/",
+        "linkHref": "https://krasgp.ru",
+        "subtitle": "Профессионализм и опыт для каждого проекта.",
+        "description": "Красноярскгражданпроект занимается деятельностью в области архитектуры и градостроительства. Основные направления работы института включают проектирование жилых, общественных и промышленных зданий, а также разработку градостроительной документации. «Красноярскгражданпроект» активно участвует в реализации государственных и муниципальных программ по развитию инфраструктуры и строительству объектов социального назначения. Институт сотрудничает с органами власти, проектными организациями и строительными компаниями. За годы своей работы «Красноярскгражданпроект» внёс значительный вклад в формирование архитектурного облика города Красноярска и других населённых пунктов региона. Среди наиболее известных проектов института можно выделить реконструкцию площади Революции, строительство многофункционального комплекса «Европа», а также разработку концепции развития исторического центра города. Институт «Красноярскгражданпроект» продолжает развиваться и расширять свою деятельность, стремясь соответствовать современным требованиям и вызовам рынка.\n\nОсновная цель создания нового корпоративного сайта для «Красноярскгражданпроекта» заключалась в отражении многообразия проектов и масштабов деятельности института. Для этого были созданы карты в фирменном стиле института для Красноярска, Красноярского края и России в целом. Все проекты, размещённые на сайте, отображаются на этих картах. Карточки проектов содержат галереи с трёхмерными моделями будущих объектов, чертежи, фотографии завершённых объектов, описания и теги для фильтрации проектов. Также сайт содержит информацию о предлагаемых вакансиях, документации, последних новостях и другие разделы, позволяющие ознакомиться с деятельностью института.",
+        "region": "Россия",
+        "launchYear": 2024,
+        "features": "Создание 3D модели карты города Красноярска",
+        "integrations": [
+          {
+            "name": "3D карта города",
+            "src": "mock/images/websalt/sayt-dlya-instituta-krasnoyarskgrazhdanproekt/integration-1.png"
+          }
+        ],
+        "images": [
+          {
+            "src": "mock/images/websalt/sayt-dlya-instituta-krasnoyarskgrazhdanproekt/gallery-1.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-dlya-instituta-krasnoyarskgrazhdanproekt/gallery-2.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-dlya-instituta-krasnoyarskgrazhdanproekt/gallery-3.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-dlya-instituta-krasnoyarskgrazhdanproekt/gallery-4.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-dlya-instituta-krasnoyarskgrazhdanproekt/gallery-5.png"
+          }
+        ],
+        "videos": [
+          {
+            "src": "https://websalt.ru/upload/iblock/c67/dem45n8pet6k28vqtp23qec12z31c6bx.mp4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "magazin-proizvoditelya-spetsodezhdy-brigform",
+      "title": "Магазин производителя спецодежды Бригформ",
+      "description": "Магазин спецодежды с групповым заказом товаров разных размеров и подготовкой коммерческих предложений в PDF и Excel.",
+      "tags": [
+        "Интернет-магазин"
+      ],
+      "prevImageUrl": "mock/images/websalt/magazin-proizvoditelya-spetsodezhdy-brigform.png",
+      "detail": {
+        "sourceUrl": "https://websalt.ru/works/magazin-proizvoditelya-spetsodezhdy-brigform/",
+        "linkHref": "https://24-spec.ru",
+        "subtitle": "Мы не просто продаём спецодежду — мы делаем вашу работу комфортнее.",
+        "description": "Компания ТД «Бригформ» (недавно у компании официально сменилось название) – крупнейший производитель спецодежды в Красноярском крае, с локализацией производственных мощностей непосредственно на территории присутствия, работает на рынке более 15 лет. Качество выпускаемой продукции подтверждено МинПромТорг России и соответствует всем стандартам ГОСТ. На производстве применяются передовые методы контроля, гарантируя высокое качество каждой единицы продукции.\n\nДля заказчиков доступен широкий выбор моделей спецодежды, а также опция индивидуального пошива, что позволит удовлетворить потребности даже самых взыскательных клиентов.\n\nРазработанный магазин ориентирован в первую очередь на оптовых покупателей. Для удобства заказа в карточке товара предусмотрено модальное окно, где можно выбрать интересующие размеры и одним нажатием отправить их в корзину. В корзине менеджеров магазина доступен функционал создания и редактирования коммерческих предложений в форматах PDF и Excel. Личный кабинет предоставляет широкие возможности для работы с заказами клиентов: отслеживание заказов, управление дебиторской задолженностью, обработка рекламаций, документооборот и многое другое. Фирменный стиль компании отражён не только на сайте, но и на брендированном транспорте компании, упаковочных коробках, табличках и других офлайн-носителях. Информация о товарах на сайте тщательно проработана: представлены подробные описания, качественные фотографии с профессиональными моделями в студии, рекомендации по уходу и другое.",
+        "region": "Россия",
+        "launchYear": 2023,
+        "services": [
+          {
+            "name": "Разработка интернет-магазинов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/razrabotka-internet-magazinov-na-1s-bitriks/"
+          },
+          {
+            "name": "Поддержка и сопровождение интернет-магазинов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/podderzhka-i-soprovozhdenie-internet-magazinov-na-1s-bitriks/"
+          },
+          {
+            "name": "SЕО продвижение сайтов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/seo-prodvidgenie/"
+          }
+        ],
+        "integrations": [
+          {
+            "name": "1С",
+            "src": "mock/images/websalt/magazin-proizvoditelya-spetsodezhdy-brigform/integration-1.png"
+          },
+          {
+            "name": "Эквайринг Росбанк",
+            "src": "mock/images/websalt/magazin-proizvoditelya-spetsodezhdy-brigform/integration-2.png"
+          },
+          {
+            "name": "Битрикс 24",
+            "src": "mock/images/websalt/magazin-proizvoditelya-spetsodezhdy-brigform/integration-3.png"
+          },
+          {
+            "name": "Почта России",
+            "src": "mock/images/websalt/magazin-proizvoditelya-spetsodezhdy-brigform/integration-4.png"
+          },
+          {
+            "name": "Маркетплейсы РФ",
+            "src": "mock/images/websalt/magazin-proizvoditelya-spetsodezhdy-brigform/integration-5.png"
+          }
+        ],
+        "images": [
+          {
+            "src": "mock/images/websalt/magazin-proizvoditelya-spetsodezhdy-brigform/gallery-1.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-proizvoditelya-spetsodezhdy-brigform/gallery-2.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-proizvoditelya-spetsodezhdy-brigform/gallery-3.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-proizvoditelya-spetsodezhdy-brigform/gallery-4.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-proizvoditelya-spetsodezhdy-brigform/gallery-5.png"
+          }
+        ],
+        "videos": [
+          {
+            "src": "https://websalt.ru/upload/iblock/cc3/cdxvl1a7rnuc73yqnns1sktprzduy2nd.mp4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sayt-dlya-gostinichnogo-kompleksa-sibirskiy-safari-klub",
+      "title": "Сайт для гостиничного комплекса Сибирский Сафари Клуб",
+      "description": "Двуязычный сайт гостиничного комплекса с бронированием номеров, отзывами и разделами об услугах.",
+      "tags": [
+        "Сайт"
+      ],
+      "prevImageUrl": "mock/images/websalt/sayt-dlya-gostinichnogo-kompleksa-sibirskiy-safari-klub.png",
+      "detail": {
+        "sourceUrl": "https://websalt.ru/works/sayt-dlya-gostinichnogo-kompleksa-sibirskiy-safari-klub/",
+        "linkHref": "https://hotelsafari.ru",
+        "subtitle": "Здесь время течет по руслу реки.",
+        "description": "Гостиничный комплекс «Сибирский Сафари Клуб» расположен на берегу Енисея, всего в 10 минутах езды от центра Красноярска. В отеле 34 номера различных категорий: от стандартных до полулюксов и люксов. К услугам гостей — ресторан русской кухни, два многофункциональных конференц-зала и водно-оздоровительный комплекс с бассейном, сауной, бильярдом и массажным кабинетом.\n\nНа территории доступны экскурсии, бизнес-центр, прачечная и химчистка, охраняемая парковка, бронирование авиа- и ж/д билетов, трансфер, а также круглосуточное обслуживание в номерах. Для отдыха на свежем воздухе можно арендовать беседки.\n\nНа разработанном сайте реализованы две языковые версии — русская и английская. Подключён сервис бронирования номеров и автоматическая загрузка актуальных отзывов с «Яндекса». Созданы рендеры территории клуба и зоны с беседками. Для каждого номера разработаны иконки с перечнем оснащения. Каждому направлению деятельности клуба посвящён отдельный раздел с подробным описанием и формами обратной связи.",
+        "region": "Россия",
+        "launchYear": 2023,
+        "integrations": [
+          {
+            "name": "Ru/Eng",
+            "src": "mock/images/websalt/sayt-dlya-gostinichnogo-kompleksa-sibirskiy-safari-klub/integration-1.png"
+          },
+          {
+            "name": "3D",
+            "src": "mock/images/websalt/sayt-dlya-gostinichnogo-kompleksa-sibirskiy-safari-klub/integration-2.png"
+          },
+          {
+            "name": "Бронирование",
+            "src": "mock/images/websalt/sayt-dlya-gostinichnogo-kompleksa-sibirskiy-safari-klub/integration-3.png"
+          },
+          {
+            "name": "API",
+            "src": "mock/images/websalt/sayt-dlya-gostinichnogo-kompleksa-sibirskiy-safari-klub/integration-4.png"
+          }
+        ],
+        "images": [
+          {
+            "src": "mock/images/websalt/sayt-dlya-gostinichnogo-kompleksa-sibirskiy-safari-klub/gallery-1.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-dlya-gostinichnogo-kompleksa-sibirskiy-safari-klub/gallery-2.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-dlya-gostinichnogo-kompleksa-sibirskiy-safari-klub/gallery-3.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-dlya-gostinichnogo-kompleksa-sibirskiy-safari-klub/gallery-4.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-dlya-gostinichnogo-kompleksa-sibirskiy-safari-klub/gallery-5.png"
+          }
+        ],
+        "videos": [
+          {
+            "src": "https://websalt.ru/upload/iblock/6b5/m5rcr7baeosmqy1pt5tiaya9c44bljjp.mp4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sayt-po-prodazhe-kitayskikh-gruzovikov-shacman",
+      "title": "Сайт по продаже китайских грузовиков Shacman",
+      "description": "Сайт поставщика грузовиков Shacman с каталогом по городам, фильтрами, 3D-моделями техники и интеграцией с Битрикс24.",
+      "tags": [
+        "Сайт"
+      ],
+      "prevImageUrl": "mock/images/websalt/sayt-po-prodazhe-kitayskikh-gruzovikov-shacman.png",
+      "detail": {
+        "sourceUrl": "https://websalt.ru/works/sayt-po-prodazhe-kitayskikh-gruzovikov-shacman/",
+        "linkHref": "https://port-vostok.ru",
+        "subtitle": "Shacman. Дороги не имеют значения.",
+        "description": "Корпоративный сайт разработан для представления компании в интернете в качестве надежного поставщика китайской грузовой техники и запчастей к ней. На ресурсе также отражены возможности обслуживания техники в собственном сервисном центре и установки дополнительного оборудования.\n\nНа сайте представлен ряд 3D-моделей: часть из них предоставлена заказчиком, часть — отрисована нами. Сайт интегрирован с «Битрикс 24», что позволяет менеджерам оперативно связываться с клиентами по различным каналам связи. В каталоге предусмотрена фильтрация товаров по разным параметрам, а также реализована поддержка многогородности.",
+        "region": "Россия",
+        "launchYear": 2023,
+        "services": [
+          {
+            "name": "Поддержка и сопровождение интернет-магазинов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/podderzhka-i-soprovozhdenie-internet-magazinov-na-1s-bitriks/"
+          },
+          {
+            "name": "SЕО продвижение сайтов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/seo-prodvidgenie/"
+          }
+        ],
+        "integrations": [
+          {
+            "name": "3D",
+            "src": "mock/images/websalt/sayt-po-prodazhe-kitayskikh-gruzovikov-shacman/integration-1.png"
+          }
+        ],
+        "images": [
+          {
+            "src": "mock/images/websalt/sayt-po-prodazhe-kitayskikh-gruzovikov-shacman/gallery-1.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-po-prodazhe-kitayskikh-gruzovikov-shacman/gallery-2.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-po-prodazhe-kitayskikh-gruzovikov-shacman/gallery-3.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-po-prodazhe-kitayskikh-gruzovikov-shacman/gallery-4.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-po-prodazhe-kitayskikh-gruzovikov-shacman/gallery-5.png"
+          }
+        ],
+        "videos": [
+          {
+            "src": "https://websalt.ru/upload/iblock/535/qhgimf1y34wquebnnibvscegln83i3q1.mp4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sayt-dlya-kliniki-kosmetologii-dinastiya",
+      "title": "Сайт для клиники косметологии Династия",
+      "description": "Сайт клиники с описаниями процедур и интерактивным подбором услуг по зонам лица и тела.",
+      "tags": [
+        "Сайт"
+      ],
+      "prevImageUrl": "mock/images/websalt/sayt-dlya-kliniki-kosmetologii-dinastiya.png",
+      "detail": {
+        "sourceUrl": "https://websalt.ru/works/sayt-dlya-kliniki-kosmetologii-dinastiya/",
+        "linkHref": "https://clinicadinasty.ru",
+        "subtitle": "Клиника косметологии нового поколения.",
+        "description": "Для клиники косметологии \"Династия\" разработали современный корпоративный сайт, представляющий полный спектр услуг и подчеркивающий профессионализм и опыт специалистов. Особое внимание было уделено созданию привлекательного и интуитивно понятного дизайна, отражающего философию клиники и акцентирующего внимание на премиальном качестве предоставляемых услуг. Подробно описали каждую услугу, предоставив потенциальным клиентам информацию о процедурах, используемых технологиях и ожидаемых результатах.\n\nРазработали интерактивный блок для выбора проблемной зоны лица и тела. Эта инновационная функция позволяет посетителям визуально определить область, требующую коррекции, и получить мгновенный доступ к информации о соответствующих услугах, а также увидеть примеры работ \"до и после\". Такой интерактивный подход значительно повышает вовлеченность пользователей, упрощает поиск нужных процедур и способствует увеличению числа записей на консультацию. Сайт стал эффективным инструментом для привлечения новых клиентов и укрепления имиджа \"Династии\" как ведущей клиники косметологии.",
+        "region": "Новокузнецк",
+        "launchYear": 2025,
+        "services": [
+          {
+            "name": "SЕО продвижение сайтов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/seo-prodvidgenie/"
+          }
+        ],
+        "images": [
+          {
+            "src": "mock/images/websalt/sayt-dlya-kliniki-kosmetologii-dinastiya/gallery-1.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-dlya-kliniki-kosmetologii-dinastiya/gallery-2.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-dlya-kliniki-kosmetologii-dinastiya/gallery-3.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-dlya-kliniki-kosmetologii-dinastiya/gallery-4.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sayt-turov-po-altayu-na-baggi",
+      "title": "Сайт туров по Алтаю на багги",
+      "description": "Сайт путешествий по Горному Алтаю на багги с описаниями маршрутов, ценами и бронированием по датам.",
+      "tags": [
+        "Сайт"
+      ],
+      "prevImageUrl": "mock/images/websalt/sayt-turov-po-altayu-na-baggi.png",
+      "detail": {
+        "sourceUrl": "https://websalt.ru/works/sayt-turov-po-altayu-na-baggi/",
+        "linkHref": "https://siberiatours.ru",
+        "subtitle": "Экстремальные приключения в сердце Алтая.",
+        "description": "Компания Mountains Siberia организовывает экспедиции и путешествия по территории горного Алтая. Мы создаем активный отдых вдали от цивилизации. Путешествие под ключ от аренды техники и экипировки до необходимого оборудования в поездке. Наша команда имеет опыт более 10 лет. За это время пройдено много маршрутов и накоплен колоссальный опыт. Теперь мы готовы делиться с Вами красотой окружающего мира и показывать тайные уголки нашей Родины.\n\nБлагодаря предоставленному заказчиком превосходному фото- и видеоконтенту, этот сайт стал поразительно красивым. От ярких, не тронутых человеком пейзажей дух захватывает, так и хочется оказаться там. Для каждого тура есть отдельная страница с детальным описанием, возможностью узнать стоимость путешествия и забронировать место на подходящую дату.",
+        "region": "Россия",
+        "launchYear": 2022,
+        "images": [
+          {
+            "src": "mock/images/websalt/sayt-turov-po-altayu-na-baggi/gallery-1.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-turov-po-altayu-na-baggi/gallery-2.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-turov-po-altayu-na-baggi/gallery-3.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-turov-po-altayu-na-baggi/gallery-4.png"
+          }
+        ],
+        "videos": [
+          {
+            "src": "https://websalt.ru/upload/iblock/b13/5u5m7uyvqmwck0079fwofd8ayn3fqkuk.mp4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sayt-uslug-pechati-logotipov-na-odezhdu-24logo",
+      "title": "Сайт услуг печати логотипов на одежду 24ЛОГО",
+      "description": "Сайт услуг брендирования одежды с описаниями способов нанесения логотипов и примерами выполненных работ.",
+      "tags": [
+        "Сайт"
+      ],
+      "prevImageUrl": "mock/images/websalt/sayt-uslug-pechati-logotipov-na-odezhdu-24logo.png",
+      "detail": {
+        "sourceUrl": "https://websalt.ru/works/sayt-uslug-pechati-logotipov-na-odezhdu-24logo/",
+        "linkHref": "https://24logo.ru",
+        "subtitle": "24ЛОГО - команда профессионалов, обладающая богатым опытом в области дизайна и нанесения логотипов.",
+        "description": "Компания ТД «Бригформ» (недавно у компании официально сменилось название) – крупнейший производитель спецодежды в Красноярском крае, с локализацией производственных мощностей непосредственно на территории присутствия. На рынке компания успешно работает более 15 лет, зарекомендовав себя как надежный партнер для многочисленных предприятий и организаций. Компания ТД «Бригформ» активно развивает свои услуги, и одним из новых направлений стало качество печати логотипов на одежде. Благодаря этой услуге, клиенты компании могут не только приобрести высококачественную специализированную одежду, но и сделать её уникальной при помощи индивидуальной брендированной атрибутики. Это решение позволяет бизнесам подчеркивать свою идентичность и усиливать корпоративный дух среди сотрудников.\n\nОсновная задача разработки сайта была показать все виды предоставляемых услуг, рассказать о них, о способах нанесения и показать примеры работ. Наша цель заключалась в создании информативного, удобного и визуально привлекательного сайта, который поможет пользователям быстро находить нужную информацию и принести им максимальную пользу в процессе выбора услуг.",
+        "region": "Сибирь",
+        "launchYear": 2024,
+        "images": [
+          {
+            "src": "mock/images/websalt/sayt-uslug-pechati-logotipov-na-odezhdu-24logo/gallery-1.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-uslug-pechati-logotipov-na-odezhdu-24logo/gallery-2.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-uslug-pechati-logotipov-na-odezhdu-24logo/gallery-3.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-uslug-pechati-logotipov-na-odezhdu-24logo/gallery-4.png"
+          },
+          {
+            "src": "mock/images/websalt/sayt-uslug-pechati-logotipov-na-odezhdu-24logo/gallery-5.png"
+          }
+        ],
+        "videos": [
+          {
+            "src": "https://websalt.ru/upload/iblock/f68/mrbbgcur4es0gxz9cfuqpfdr0n4nycnm.mp4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "magazin-tsvetov-zelenyy",
+      "title": "Магазин цветов Зеленый",
+      "description": "Магазин букетов с интеграцией с «МоимСкладом», входом по SMS и настройкой зон доставки.",
+      "tags": [
+        "Интернет-магазин"
+      ],
+      "prevImageUrl": "mock/images/websalt/magazin-tsvetov-zelenyy.png",
+      "detail": {
+        "sourceUrl": "https://websalt.ru/works/magazin-tsvetov-zelenyy/",
+        "linkHref": "https://greenmarket.ru",
+        "subtitle": "Зеленый: Эмоции в каждом букете.",
+        "description": "Разработан новый интернет-магазин, призванный стать визитной карточкой компании \"Зеленый\", позиционируя ее как надежного партнера и ведущего поставщика цветов. Магазин \"Зеленый\" предлагает широкий ассортимент букетов, составленных профессиональными флористами, и гарантирует превосходное качество обслуживания. Новая платформа позволит клиентам с легкостью выбирать идеальный букет для любого случая, будь то торжественное событие или просто проявление внимания.\n\nДля оптимизации работы магазина проведена интеграция с облачной ERP-системой \"Мой склад\", что позволило автоматизировать процессы учета и складского хранения. Каталог товаров оптимизирован для удобства поиска и представления информации. Реализована авторизация через SMS для повышения безопасности и удобства пользователей. Внедрен раздел с авторскими букетами, подчеркивающий уникальность предложений. Разработан модуль зон доставок, обеспечивающий точное определение стоимости и времени доставки в зависимости от адреса клиента. Все это в совокупности позволяет \"Зеленому\" предоставлять своим клиентам современный, удобный и надежный сервис.",
+        "region": "Красноярск",
+        "launchYear": 2025,
+        "services": [
+          {
+            "name": "Разработка интернет-магазинов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/razrabotka-internet-magazinov-na-1s-bitriks/"
+          },
+          {
+            "name": "Поддержка и сопровождение интернет-магазинов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/podderzhka-i-soprovozhdenie-internet-magazinov-na-1s-bitriks/"
+          },
+          {
+            "name": "SЕО продвижение сайтов на 1С-Битрикс",
+            "href": "https://websalt.ru/uslugi/seo-prodvidgenie/"
+          }
+        ],
+        "integrations": [
+          {
+            "name": "Мой Склад",
+            "src": "mock/images/websalt/magazin-tsvetov-zelenyy/integration-1.png"
+          },
+          {
+            "name": "Эквайринг Сбербанк",
+            "src": "mock/images/websalt/magazin-tsvetov-zelenyy/integration-2.png"
+          }
+        ],
+        "images": [
+          {
+            "src": "mock/images/websalt/magazin-tsvetov-zelenyy/gallery-1.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-tsvetov-zelenyy/gallery-2.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-tsvetov-zelenyy/gallery-3.png"
+          },
+          {
+            "src": "mock/images/websalt/magazin-tsvetov-zelenyy/gallery-4.png"
+          }
+        ]
+      }
+    }
+  ]
+}
